@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#300c3d"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/course_image"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/splogo"
+                android:scaleType="centerCrop"
+                >
+
+            </ImageView>
+            <TextView
+                android:id="@+id/course_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Computer Netowrk (Theory)"
+                android:textSize="16sp"
+                android:layout_marginLeft="16dp"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:id="@+id/course_detail"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:text="CNC601240 Credits:3.0 Active Class"
+                android:textColor="@color/white"
+                android:layout_marginLeft="16dp"
+                android:textSize="13sp"
+                android:layout_marginBottom="20dp"
+                >
+            </TextView>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

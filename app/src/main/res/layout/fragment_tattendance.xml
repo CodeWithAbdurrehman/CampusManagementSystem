@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.TAttendance"
+    android:background="#FFFFFF"
+    >
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <!-- Column Headers -->
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Roll No"
+                android:textAlignment="center"
+                android:padding="8dp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Name"
+                android:textAlignment="center"
+                android:padding="8dp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Status"
+                android:textAlignment="center"
+                android:padding="8dp"/>
+        </TableRow>
+    </TableLayout>
+
+    <ListView
+        android:id="@+id/studentListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tableLayout"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="0.5dp"
+        android:choiceMode="multipleChoice"
+        android:layout_marginBottom="100dp"
+        />
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:hint="Save"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_edittext_bg"
+        android:textColorHint="@color/black"
+        android:layout_margin="20dp"
+        >
+
+    </Button>
+</RelativeLayout>

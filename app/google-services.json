@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "670280820438",
+    "project_id": "campusmanagementsystemcms",
+    "storage_bucket": "campusmanagementsystemcms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670280820438:android:09617668e4c93c02d58b77",
+        "android_client_info": {
+          "package_name": "com.example.campusmanagementsystemcmsfinal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTD6sDpkD8lV_u9NIeIR2Nji6eiMMuf8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

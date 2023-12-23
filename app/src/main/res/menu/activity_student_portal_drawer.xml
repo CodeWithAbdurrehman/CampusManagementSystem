@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_perm_contact_calendar_24"
+            android:title="@string/dashboard" />
+        <item
+
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/baseline_watch_later_24"
+            android:title="@string/attendance" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/baseline_data_thresholding_24"
+            android:title="@string/result" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/baseline_person_remove_24"
+            android:title="@string/logout" />
+    </group>
+</menu>

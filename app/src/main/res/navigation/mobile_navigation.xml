@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.campusmanagementsystemcmsfinal.StudentPortal.ui.home.SHomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.campusmanagementsystemcmsfinal.StudentPortal.ui.gallery.SGalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" >
+        <action
+            android:id="@+id/action_nav_gallery_to_nav_attendance2"
+            app:destination="@id/nav_attendance" />
+    </fragment>
+        <fragment
+        android:id="@+id/nav_attendance"
+        android:name="com.example.campusmanagementsystemcmsfinal.StudentPortal.ui.gallery.Attendance"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_attendance" />
+
+
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.campusmanagementsystemcmsfinal.StudentPortal.ui.slideshow.SSlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" >
+        <action
+            android:id="@+id/action_nav_slideshow_to_nav_sattendance"
+            app:destination="@id/nav_sattendance" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_sattendance"
+        android:name="com.example.campusmanagementsystemcmsfinal.StudentPortal.ui.slideshow.Result"
+        android:label="Result"
+        tools:layout="@layout/fragment_result" />
+
+
+</navigation>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">CMS</string>
+    <string name="title_activity_teacher_portal">TeacherPortal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_student">Student</string>
+
+    <string name="superior_university">SUPERIOR UNIVERSITY</string>
+    <string name="login">Login\n</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="password">Password</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="username">Username</string>
+    <string name="login1">LOGIN</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="logout">Logout</string>
+    <string name="result">Result</string>
+    <string name="attendance">Attendance</string>
+    <string name="academics">Academics</string>
+    <string name="mohammad_abdur_rehman">Mohammad Abdur Rehman</string>
+    <string name="bcsm_f21_190_superior_ed_pk">bcsm-f21-190@superior.edu.pk</string>
+    <string name="faculty_of_computer_science_and_information_technology_gcl">Faculty of computer science and information technology gcl</string>
+    <string name="assigned_classes">Assigned Classes</string>
+    <string name="enrolled_courses">Enrolled Courses</string>
+</resources>
